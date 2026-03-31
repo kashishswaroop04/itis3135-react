@@ -11,6 +11,10 @@ import Survey from './Survey'
 import Cards from './Cards'
 import Inventory from './Inventory'
 import Product from './Product'
+import Gallery from './Gallery'
+import Instructions from './Instructions'
+import Highlight from './Highlight'
+import WebsiteEvaluations from './WebsiteEvaluations'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -25,6 +29,10 @@ createRoot(document.getElementById('root')).render(
           <Route path="cards" element={<Cards />} />
           <Route path="inventory" element={<Inventory />} />
           <Route path="product" element={<Product />} />
+          <Route path="gallery" element={<Gallery />} />
+          <Route path="instructions" element={<Instructions />} />
+          <Route path="highlight" element={<Highlight />} />
+          <Route path="website-evaluations" element={<WebsiteEvaluations />} />
         </Route>
       </Routes>
     </HashRouter>
