@@ -15,6 +15,7 @@ import Gallery from './Gallery'
 import Instructions from './Instructions'
 import Highlight from './Highlight'
 import WebsiteEvaluations from './WebsiteEvaluations'
+import ProjectOverview from './ProjectOverview'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -33,6 +34,7 @@ createRoot(document.getElementById('root')).render(
           <Route path="instructions" element={<Instructions />} />
           <Route path="highlight" element={<Highlight />} />
           <Route path="website-evaluations" element={<WebsiteEvaluations />} />
+          <Route path="project-overview" element={<ProjectOverview />} />
         </Route>
       </Routes>
     </HashRouter>

@@ -16,7 +16,8 @@ export default function Header() {
         <Link to="/gallery">Gallery</Link> |{' '}
         <Link to="/instructions">Instructions</Link> |{' '}
         <Link to="/highlight">Highlight</Link> |{' '}
-        <Link to="/website-evaluations">Website Evaluations</Link>
+        <Link to="/website-evaluations">Website Evaluations</Link> |{' '}
+        <Link to="/project-overview">Project Overview</Link>
       </nav>
     </header>
   )
