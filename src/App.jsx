@@ -12,6 +12,8 @@ import Instructions from './Instructions.jsx'
 import Highlight from './Highlight.jsx'
 import WebsiteEvaluations from './WebsiteEvaluations.jsx'
 import ProjectOverview from './ProjectOverview.jsx'
+import Review1 from './Review1.jsx'
+import Review2 from './Review2.jsx'
 
 export default function App() {
   return (
@@ -29,6 +31,8 @@ export default function App() {
         <Route path="highlight" element={<Highlight />} />
         <Route path="website-evaluations" element={<WebsiteEvaluations />} />
         <Route path="project-overview" element={<ProjectOverview />} />
+        <Route path="review1" element={<Review1 />} />
+        <Route path="review2" element={<Review2 />} />
       </Route>
     </Routes>
   )
