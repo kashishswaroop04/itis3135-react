@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fff8e7;
+  color: #2f2f2f;
+}
+
+main {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+a {
+  color: #6b3e26;
+}
+
+button {
+  background-color: #8b5e3c;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #6b3e26;
+}
+
+/* Product page interaction */
+.product-card {
+  max-width: 650px;
+  margin: 30px auto;
+  padding: 25px;
+  border-radius: 12px;
+  background-color: #f7f1e3;
+  text-align: center;
+  border: 2px solid #8b5e3c;
+}
+
+.product-card p {
+  line-height: 1.6;
+}
+
+.quantity-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.quantity-box button {
+  padding: 8px 15px;
+  font-size: 1.2rem;
+}
+
+.quantity-box span {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+/* Gallery page slideshow interaction */
+.gallery-card {
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 25px;
+  border-radius: 12px;
+  background-color: #f7f1e3;
+  text-align: center;
+  border: 2px solid #8b5e3c;
+}
+
+.gallery-image {
+  width: 100%;
+  max-width: 550px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.gallery-buttons {
+  margin-top: 15px;
+}
+
+/* Survey page form interaction */
+.survey-card {
+  max-width: 650px;
+  margin: 30px auto;
+  padding: 25px;
+  border-radius: 12px;
+  background-color: #f7f1e3;
+  border: 2px solid #8b5e3c;
+}
+
+.survey-card p {
+  line-height: 1.6;
+  text-align: center;
+}
+
+.survey-card form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.survey-card label {
+  font-weight: bold;
+}
+
+.survey-card input {
+  padding: 10px;
+  border: 1px solid #8b5e3c;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.survey-message {
+  margin-top: 18px;
+  font-weight: bold;
+  text-align: center;
+}
