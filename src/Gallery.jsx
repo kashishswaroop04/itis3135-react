@@ -3,17 +3,17 @@ import { useState } from 'react'
 export default function Gallery() {
   const galleryImages = [
     {
-      src: '/gallery1.jpg',
+      src: './gallery1.jpg',
       alt: 'Fresh donuts on display',
       caption: 'Fresh donuts made daily'
     },
     {
-      src: '/gallery2.jpg',
+      src: './gallery2.jpg',
       alt: 'Bakery coffee and pastry',
       caption: 'Coffee and pastries for a quick break'
     },
     {
-      src: '/gallery3.jpg',
+      src: './gallery3.jpg',
       alt: 'Bakery counter with desserts',
       caption: 'Sweet treats from Lazy Llama Bakery'
     }

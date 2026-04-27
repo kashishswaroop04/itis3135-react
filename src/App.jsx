@@ -14,6 +14,7 @@ import WebsiteEvaluations from './WebsiteEvaluations.jsx'
 import ProjectOverview from './ProjectOverview.jsx'
 import Review1 from './Review1.jsx'
 import Review2 from './Review2.jsx'
+import Slideshow from './Slideshow.jsx'
 
 export default function App() {
   return (
@@ -33,6 +34,7 @@ export default function App() {
         <Route path="project-overview" element={<ProjectOverview />} />
         <Route path="review1" element={<Review1 />} />
         <Route path="review2" element={<Review2 />} />
+        <Route path="slideshow" element={<Slideshow />} />
       </Route>
     </Routes>
   )
